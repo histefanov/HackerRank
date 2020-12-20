@@ -5,7 +5,9 @@ VisualStudioVersion = 16.0.30413.136
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ExtraLongFactorial", "ExtraLongFactorial\ExtraLongFactorial.csproj", "{1EF58291-110A-4BEB-BF20-07F93F421D6B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "3DSurfaceArea", "3DSurfaceArea\3DSurfaceArea.csproj", "{50598AB8-8763-48AA-846C-04D94209EBC0}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "3DSurfaceArea", "3DSurfaceArea\3DSurfaceArea.csproj", "{50598AB8-8763-48AA-846C-04D94209EBC0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mini-MaxSum", "Mini-MaxSum\Mini-MaxSum.csproj", "{D0152E0D-B28F-4DC7-B1B4-0355445C4598}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +23,10 @@ Global
 		{50598AB8-8763-48AA-846C-04D94209EBC0}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{50598AB8-8763-48AA-846C-04D94209EBC0}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{50598AB8-8763-48AA-846C-04D94209EBC0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D0152E0D-B28F-4DC7-B1B4-0355445C4598}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D0152E0D-B28F-4DC7-B1B4-0355445C4598}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D0152E0D-B28F-4DC7-B1B4-0355445C4598}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D0152E0D-B28F-4DC7-B1B4-0355445C4598}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
