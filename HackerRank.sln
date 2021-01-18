@@ -13,7 +13,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Ratios", "Ratios\Ratios.csp
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TimeInWords", "TimeInWords\TimeInWords.csproj", "{068FF77F-D131-43E3-8DBC-61860B9CB47B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BirthdayCakeCandles", "BirthdayCakeCandles\BirthdayCakeCandles.csproj", "{B38A5D3B-15EC-4CC3-99AC-C6F16110DC0F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BirthdayCakeCandles", "BirthdayCakeCandles\BirthdayCakeCandles.csproj", "{B38A5D3B-15EC-4CC3-99AC-C6F16110DC0F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Staircase", "Staircase\Staircase.csproj", "{63F997BE-699E-4D86-A979-3A609373E099}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -45,6 +47,10 @@ Global
 		{B38A5D3B-15EC-4CC3-99AC-C6F16110DC0F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B38A5D3B-15EC-4CC3-99AC-C6F16110DC0F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B38A5D3B-15EC-4CC3-99AC-C6F16110DC0F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{63F997BE-699E-4D86-A979-3A609373E099}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{63F997BE-699E-4D86-A979-3A609373E099}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{63F997BE-699E-4D86-A979-3A609373E099}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{63F997BE-699E-4D86-A979-3A609373E099}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
