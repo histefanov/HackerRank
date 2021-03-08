@@ -23,6 +23,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CatsAndMouse", "CatsAndMous
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TheHurdleRace", "TheHurdleRace\TheHurdleRace.csproj", "{0A939384-88D8-4AC8-BEDC-3439B5E815A2}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DesignerPDFViewer", "DesignerPDFViewer\DesignerPDFViewer.csproj", "{24E344A7-761C-40C8-950F-F0107D27D6E6}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -69,6 +71,10 @@ Global
 		{0A939384-88D8-4AC8-BEDC-3439B5E815A2}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0A939384-88D8-4AC8-BEDC-3439B5E815A2}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0A939384-88D8-4AC8-BEDC-3439B5E815A2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{24E344A7-761C-40C8-950F-F0107D27D6E6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{24E344A7-761C-40C8-950F-F0107D27D6E6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{24E344A7-761C-40C8-950F-F0107D27D6E6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{24E344A7-761C-40C8-950F-F0107D27D6E6}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
