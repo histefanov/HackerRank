@@ -19,15 +19,17 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Staircase", "Staircase\Stai
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleApp1", "ConsoleApp1\ConsoleApp1.csproj", "{AD9DEF09-460E-41FE-B185-BD6777427CD4}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CatsAndMouse", "CatsAndMouse\CatsAndMouse.csproj", "{17351B26-96D2-48F1-857F-8242A3063124}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CatsAndMouse", "CatsAndMouse\CatsAndMouse.csproj", "{17351B26-96D2-48F1-857F-8242A3063124}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TheHurdleRace", "TheHurdleRace\TheHurdleRace.csproj", "{0A939384-88D8-4AC8-BEDC-3439B5E815A2}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TheHurdleRace", "TheHurdleRace\TheHurdleRace.csproj", "{0A939384-88D8-4AC8-BEDC-3439B5E815A2}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DesignerPDFViewer", "DesignerPDFViewer\DesignerPDFViewer.csproj", "{24E344A7-761C-40C8-950F-F0107D27D6E6}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DesignerPDFViewer", "DesignerPDFViewer\DesignerPDFViewer.csproj", "{24E344A7-761C-40C8-950F-F0107D27D6E6}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UtopianTree", "UtopianTree\UtopianTree.csproj", "{5F92726A-8C66-4884-B27D-B54C6B7D5549}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "UtopianTree", "UtopianTree\UtopianTree.csproj", "{5F92726A-8C66-4884-B27D-B54C6B7D5549}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BeautifulDays", "BeautifulDays\BeautifulDays.csproj", "{EE987BFA-3A16-4B52-AB35-3192799B8F5F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BeautifulDays", "BeautifulDays\BeautifulDays.csproj", "{EE987BFA-3A16-4B52-AB35-3192799B8F5F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BreakingTheRecords", "BreakingTheRecords\BreakingTheRecords.csproj", "{7CB1F55C-9A61-495F-A035-F73D15287624}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -87,6 +89,10 @@ Global
 		{EE987BFA-3A16-4B52-AB35-3192799B8F5F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{EE987BFA-3A16-4B52-AB35-3192799B8F5F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{EE987BFA-3A16-4B52-AB35-3192799B8F5F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7CB1F55C-9A61-495F-A035-F73D15287624}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7CB1F55C-9A61-495F-A035-F73D15287624}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7CB1F55C-9A61-495F-A035-F73D15287624}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7CB1F55C-9A61-495F-A035-F73D15287624}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
