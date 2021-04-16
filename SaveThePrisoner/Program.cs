@@ -16,17 +16,7 @@ namespace SaveThePrisoner
 
         static int saveThePrisoner(int n, int m, int s)
         {
-            while (m > 0)
-            {
-                s++;
-                if (s == n)
-                {
-                    s = 1;
-                }
-                m--;
-            }
-
-            return s;
+            return ((s - 1 + m - 1) % n) + 1;
         }
     }
 }
