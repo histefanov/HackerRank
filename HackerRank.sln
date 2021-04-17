@@ -37,6 +37,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ViralAdvertising", "ViralAd
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SaveThePrisoner", "SaveThePrisoner\SaveThePrisoner.csproj", "{3D29595D-CC56-4C3D-AFAC-39795D812BA0}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CircularArrayRotation", "CircularArrayRotation\CircularArrayRotation.csproj", "{64A86038-B069-4A1D-8BFF-F01D00710275}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -111,6 +113,10 @@ Global
 		{3D29595D-CC56-4C3D-AFAC-39795D812BA0}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3D29595D-CC56-4C3D-AFAC-39795D812BA0}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3D29595D-CC56-4C3D-AFAC-39795D812BA0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{64A86038-B069-4A1D-8BFF-F01D00710275}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{64A86038-B069-4A1D-8BFF-F01D00710275}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{64A86038-B069-4A1D-8BFF-F01D00710275}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{64A86038-B069-4A1D-8BFF-F01D00710275}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
