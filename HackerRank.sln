@@ -35,11 +35,15 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MigratoryBirds", "Migratory
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ViralAdvertising", "ViralAdvertising\ViralAdvertising.csproj", "{67A65D2E-6F6E-4098-964C-7CB9189549D6}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SaveThePrisoner", "SaveThePrisoner\SaveThePrisoner.csproj", "{3D29595D-CC56-4C3D-AFAC-39795D812BA0}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SaveThePrisoner", "SaveThePrisoner\SaveThePrisoner.csproj", "{3D29595D-CC56-4C3D-AFAC-39795D812BA0}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CircularArrayRotation", "CircularArrayRotation\CircularArrayRotation.csproj", "{64A86038-B069-4A1D-8BFF-F01D00710275}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CircularArrayRotation", "CircularArrayRotation\CircularArrayRotation.csproj", "{64A86038-B069-4A1D-8BFF-F01D00710275}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TimeConversion", "TimeConversion\TimeConversion.csproj", "{15F32D9B-DF9E-4AC7-9C1E-1687E5BF0ECF}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TimeConversion", "TimeConversion\TimeConversion.csproj", "{15F32D9B-DF9E-4AC7-9C1E-1687E5BF0ECF}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SalesByMatch", "SalesByMatch\SalesByMatch.csproj", "{8617A66F-FDE3-452B-AFE4-19A57BA1F30D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TowersOfHanoi", "TowersOfHanoi\TowersOfHanoi.csproj", "{DEADD5C5-CAA7-4A93-9A9A-EC5CFCA869FF}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -123,6 +127,14 @@ Global
 		{15F32D9B-DF9E-4AC7-9C1E-1687E5BF0ECF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{15F32D9B-DF9E-4AC7-9C1E-1687E5BF0ECF}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{15F32D9B-DF9E-4AC7-9C1E-1687E5BF0ECF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8617A66F-FDE3-452B-AFE4-19A57BA1F30D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8617A66F-FDE3-452B-AFE4-19A57BA1F30D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8617A66F-FDE3-452B-AFE4-19A57BA1F30D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8617A66F-FDE3-452B-AFE4-19A57BA1F30D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DEADD5C5-CAA7-4A93-9A9A-EC5CFCA869FF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DEADD5C5-CAA7-4A93-9A9A-EC5CFCA869FF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DEADD5C5-CAA7-4A93-9A9A-EC5CFCA869FF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DEADD5C5-CAA7-4A93-9A9A-EC5CFCA869FF}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
