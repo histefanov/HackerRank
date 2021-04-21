@@ -45,6 +45,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SalesByMatch", "SalesByMatc
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TowersOfHanoi", "TowersOfHanoi\TowersOfHanoi.csproj", "{DEADD5C5-CAA7-4A93-9A9A-EC5CFCA869FF}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DrawingBook", "DrawingBook\DrawingBook.csproj", "{3D3204D0-75FF-4D33-8F31-F202EE429403}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -135,6 +137,10 @@ Global
 		{DEADD5C5-CAA7-4A93-9A9A-EC5CFCA869FF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DEADD5C5-CAA7-4A93-9A9A-EC5CFCA869FF}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{DEADD5C5-CAA7-4A93-9A9A-EC5CFCA869FF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3D3204D0-75FF-4D33-8F31-F202EE429403}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3D3204D0-75FF-4D33-8F31-F202EE429403}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3D3204D0-75FF-4D33-8F31-F202EE429403}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3D3204D0-75FF-4D33-8F31-F202EE429403}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
