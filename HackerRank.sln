@@ -61,6 +61,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AppleAndOrange", "AppleAndO
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NumberLineJumps", "NumberLineJumps\NumberLineJumps.csproj", "{C81E8707-0D6D-4EA8-9C68-B7D7240E393E}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BetweenTwoSets", "BetweenTwoSets\BetweenTwoSets.csproj", "{6BC9C02E-5AEB-4F31-9AA0-0DAE37224A1A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -183,6 +185,10 @@ Global
 		{C81E8707-0D6D-4EA8-9C68-B7D7240E393E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C81E8707-0D6D-4EA8-9C68-B7D7240E393E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C81E8707-0D6D-4EA8-9C68-B7D7240E393E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6BC9C02E-5AEB-4F31-9AA0-0DAE37224A1A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6BC9C02E-5AEB-4F31-9AA0-0DAE37224A1A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6BC9C02E-5AEB-4F31-9AA0-0DAE37224A1A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6BC9C02E-5AEB-4F31-9AA0-0DAE37224A1A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
