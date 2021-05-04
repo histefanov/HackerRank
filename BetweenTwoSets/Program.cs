@@ -18,16 +18,43 @@ namespace BetweenTwoSets
                 .ToArray();
 
             int result = GetTotalX(arr1, arr2);
+            Console.WriteLine(result);
         }
 
-        private static int GetTotalX(int[] arr1, int[] arr2)
+        private static int GetTotalX(int[] a, int[] b)
         {
             var totalX = 0;
 
-            for (int i = 1; i <= arr2.Max(); i++)
+            for (int i = a.Max(); i <= b.Max(); i++)
             {
+                bool flag = false;
 
+                foreach (var num in a)
+                {
+                    if (i % num != 0)
+                    {
+                        flag = true;
+                        break;
+                    }
+                }
+
+                if (flag) continue;
+
+                foreach (var num in b)
+                {
+                    if (num % i != 0)
+                    {
+                        flag = true;
+                        break;
+                    }
+                }
+
+                if (flag) continue;
+
+                totalX++;
             }
+
+            return totalX;
         }
     }
 }
