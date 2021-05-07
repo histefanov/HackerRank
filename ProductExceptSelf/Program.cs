@@ -12,7 +12,7 @@ namespace ProductExceptSelf
                 .Select(int.Parse)
                 .ToArray();
 
-            int[] result = ProductExceptSelfWithoutDivision(arr);
+            int[] result = ProductExceptSelfWithoutDivisionAndWithConstantSpaceComplexity(arr);
             Console.WriteLine(string.Join(", ", result));
         }
 
@@ -38,12 +38,13 @@ namespace ProductExceptSelf
             int[] result = new int[n];
 
             leftProducts[0] = 1;
+            rightProducts[n - 1] = 1;
+
             for (int i = 1; i < n; i++)
             {
                 leftProducts[i] = arr[i - 1] * leftProducts[i - 1];
             }
 
-            rightProducts[n - 1] = 1;
             for (int i = n - 2; i >= 0; i--)
             {
                 rightProducts[i] = arr[i + 1] * rightProducts[i + 1];
@@ -55,6 +56,29 @@ namespace ProductExceptSelf
             }
 
             return result;
+        }
+
+        private static int[] ProductExceptSelfWithoutDivisionAndWithConstantSpaceComplexity(int[] a)
+        {
+            int n = a.Length;
+            int[] r = new int[n];
+
+            r[0] = 1;
+
+            for (int i = 1; i < n; i++)
+            {
+                r[i] = r[i - 1] * a[i - 1];
+            }
+
+            int rp = 1;
+
+            for (int i = n - 1; i >= 0; i--)
+            {
+                r[i] *= rp;
+                rp *= a[i];
+            }
+
+            return r;
         }
     }
 }
