@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections.Generic;
 using System.Linq;
 
 namespace SumOfTwo
@@ -19,7 +20,7 @@ namespace SumOfTwo
 
             int v = int.Parse(Console.ReadLine());
 
-            bool result = SumOfTwo(a, b, v);
+            bool result = SumOfTwoUsingHashSet(a, b, v);
             Console.WriteLine(result);
         }
 
@@ -31,8 +32,8 @@ namespace SumOfTwo
             }
 
             int[] a = arr1.OrderBy(x => x).ToArray();
-            int[] b = arr2.OrderByDescending(x => x).ToArray();           
-            
+            int[] b = arr2.OrderByDescending(x => x).ToArray();
+
             int i = 0;
             int j = 0;
             int s = 0;
@@ -50,6 +51,26 @@ namespace SumOfTwo
                     j++;
                 }
                 else
+                {
+                    return true;
+                }
+            }
+
+            return false;
+        }
+
+        private static bool SumOfTwoUsingHashSet(int[] a, int[] b, int v)
+        {
+            var complements = new HashSet<int>();
+
+            foreach (var n in a)
+            {
+                complements.Add(v - n);
+            }
+
+            foreach (var m in b)
+            {
+                if (complements.Contains(m))
                 {
                     return true;
                 }
